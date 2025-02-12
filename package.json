@@ -1,11 +1,15 @@
 {
   "name": "christopherurban",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "Get to know Christopher Urban",
   "main": "index.js",
   "bin": {
     "christopherurban": "index.js"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint index.js"
@@ -14,7 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/curban2336/Christopher.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "command-line"
+  ],
   "author": "Christopher Urban <g00269489s@stu.raritanval.edu> (https://github.com/curban2336)",
   "license": "MIT",
   "bugs": {
